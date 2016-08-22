@@ -15,3 +15,8 @@ DB_LINK =
 
 and
 unpack static.zip
+
+### requires:
+wen2py + python
+http://web2py.com/books/default/chapter/29
+
