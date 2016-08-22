@@ -2,7 +2,7 @@
 
 ## This the script for bets portal in bitcoin
 
-see site example on http://wagers.win or http://wagers.wolrd
+see site example on http://wagers.win or http://wagers.world
 
 use bets_github.zip - include all files
 
