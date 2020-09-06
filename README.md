@@ -1,6 +1,6 @@
 # web2py_bets_bitcoin
 
-## This the script for bets portal in bitcoin
+## This the script for bitcoin bets on some events
 
 ### requires:
 + python 2.7
