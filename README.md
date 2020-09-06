@@ -2,6 +2,9 @@
 
 ## This the script for bets portal in bitcoin
 
+### requires:
++ python 2.7
++ framework: [web2py](http://www.web2py.com/)
 Ставки на споры и события в биткоинах.
 
 Отличие сервиса не нужно регистрироваться. Игру на ставки может создать любой и получать комиссию со ставок.
@@ -23,8 +26,4 @@ DB_LINK =
 
 and
 unpack static.zip
-
-### requires:
-web2py + python
-http://web2py.com/books/default/chapter/29
 
