@@ -1,0 +1,34 @@
+{{extend 'layout.html'}}
+
+<h2 style="line-height: 30px;">
+    Create your betting and sweepstakes, maintain them and take bitcoin profit on bets.
+</h2>
+
+<h3>
+    Features of our service:
+</h3>
+<div {{if show_imgs:}} id="list2" {{pass}}>
+<ol>
+    <li><P>
+        <em>
+            <span class="inv">Benefit.</span> You may open and advertise a betting yourself, indicate victory conditions, and take bets from your friends or gamblers from the Internet. When the bets are made, you should close your betting until the time of the event. After the event took place, you may resolve a betting yourself and determine victory conditions. As a result, you’ll get a reward in the amount of about 3% from the total number of bets, and gamblers will get automatic payments in accordance to the amount of their winning bets and the total amount of bets on the betting.</em></p></li>
+<li><p><em>
+<span class="inv">Honesty.</span> In ordinary betting companies it’s impossible to really know how many bets were placed on a particular betting condition or event. You’re given a certain winning multiplier when paying a bet, but then this multiplier might decrease for some reason. It’s possible that the company takes 10-20% commission, because you don’t know for sure how many stakes were made. However, we let everyone see all the payments and bets due to bitcoin technology: a payment in bitcoins gives a 100% transparence of information.
+</em></p></li>
+<li><p><em>
+<span class="inv">Convenience.</span> You may quickly open “simple betting” on online video game battles. You may also easily make bets on Counter Strike or on DOTA 2 and other online video games. Bets are displayed in real time.
+</em></p></li>
+<li><p><em>
+<span class="inv">Confidentiality.</span> To take part in a betting you don’t have to register – you may make bets without the registration on our service. A winning payment will be sent to an address from which a bet was received.
+</em></p></li>
+<li><p><em>
+<span class="inv">Transparency.</span> You may open a test betting, make bets on it, close it and determine a winner yourself, and look what payments we will make. In this way you’ll be able to check our commission.
+</em></p></li>
+<li><p><em>
+<span class="inv">Democracy.</span> A commission (a tax) on a betting is determined by its creator within 0-3%. Our service doesn’t take any other taxes from betting participants.
+</em></p></li>
+
+    </ol>
+</div>
+
+{{=BEAUTIFY(response._vars.values()[0])}}
