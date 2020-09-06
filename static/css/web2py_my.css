@@ -1,0 +1,325 @@
+.dropdown-menu {
+    color: white !important;
+    background-color: #A33 !important;
+}
+.dropdown-menu>li>web2py-menu-active a {
+    color: #0F0 !important;
+}
+.dropdown-menu>li>a {
+    color: antiquewhite !important;
+    font-size: 20px;
+}
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.navbar-inverse .nav>li>a {
+    color-: lightpink;
+    color-: lightsalmon;
+    color: darksalmon;
+}
+.navbar-inverse .navbar-inner {
+    background-color: #000;
+    background-image: none;
+}
+
+#list2 { font-family: monospace; }
+#list2 ol { font-style:italic; font-size:34px; color:#bfe1f1; }
+#list2 ol li { margin: 0px 0 0px 70px; }
+#list2 ol li p { padding:8px; font-style:normal; font-size:18px; font-family:Arial;
+ color:#eee; border-left: 2px solid #bbb; }
+
+h1,h2,h3,h4,h5,h6.ask {
+color: gainsboro;
+}
+h2,h3.ask {
+  line-height: 20px;
+}
+
+[type="text"], [type="password"], select {
+    margin-right: 5px;
+    width: initial;
+}
+
+#w_cat_list { position: relative; }
+.suggestions { background: grey; border: solid 1px #55A6C8; }
+.suggestions DIV { padding: 2px 4px 2px 4px; }
+
+.web2py-menu-active a {
+    color:#C8FF7B !important;
+}
+section.main {
+    padding-: 0px;
+    margin-:0px;
+}
+div.page-header {
+    padding-bottom-: 0px;
+    margin-bottom-: 20px;
+    margin-top-: 0px;
+    color:gainsboro;
+}
+.circ {
+    border-radius: 200px;
+    padding:12px;
+    height: inherit !important;
+}
+.bbig {
+    font-size: 1.5em;
+}
+.btn-awes {
+    font-size: 1.3em;
+    cursor: pointer;
+}
+.helptitle {
+    color: antiquewhite;
+}
+
+.tip:hover::after {
+    content: attr(tip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; top: 30%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 14px; /* Размер текста подсказки */
+    padding: 5px 10px; /* Поля */
+    border: 1px solid #333; /* Параметры рамки */
+    background-color: #762727;
+}
+
+label {
+    font-size: 16px;
+}
+select, input {
+    font-size: 18px !important;
+    margin-bottom: 0px !important;
+    height: 2em !important;
+    background-color: bisque !important;
+}
+textarea {
+    font-size: 18px !important;
+    margin-bottom: 0px !important;
+    background-color: bisque !important;
+}
+.btn {
+    font-size: 18px;
+    margin-bottom: 0px;
+    height: 2em;
+}
+.una {
+  color: aliceblue;
+}
+.unv {
+    color: #DDD;
+}
+.inv {
+    color: #FF9;
+}
+a > .inv:hover {
+    color: #FFF;
+}
+.w_s_name small {
+    color: #FF9;
+}
+div.w_s_name {
+    color: #FF9;
+    background: #9B4B4B;
+    margin: 0 -15px;
+    padding: 5px 30px;
+}
+.win {
+    color: #55E02C;
+}
+.red {
+    color: red;
+}
+.green {
+    color:limegreen;
+}
+.gold {
+    color: gold;
+}
+.black {
+    color: black;
+}
+.inv_lgrn {
+    color: lightgreen;
+}
+.inv_body {
+    color: darksalmon;
+}
+.inm {
+    color: #EE9;
+}
+.b {
+    font-weight:bold;
+}
+
+.games_seek {
+    padding: 25px 15px 25px 15px;
+    margin: 10px 0px;
+    vertical-align: bottom;
+    background-color: #762727;
+}
+.game_stats {
+    padding: 15px 10px 15px 10px;
+    //margin: 20px;
+    vertical-align: bottom;
+    background-color: #9B4B4B;
+    color: #ED9;
+}
+.g_team_stats {
+    padding: 15px 10px 15px 10px;
+    margin: 10px 0px;
+    vertical-align: bottom;
+    background-color: #762727;
+    color: #ED9;
+}
+.b_game_stats {
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0px;
+    background-color: #8E3939;
+    color: #ED9;
+}
+.b_cond_stats
+ {
+    padding: 5px 10px 5px 10px;
+    margin: 5px 0px;
+    background-color: #D15353;
+    color: #ED9;
+}.rec_a {
+    padding: 15px;
+    margin: 0px;
+}
+.btn_a {
+    font-size: 120%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 0px;
+    border:solid;
+    border-width: 0px;
+    border-color: #ddd;
+    vertical-align: bottom;
+    cursor: pointer;
+    text-align: center;
+    display: inline-table;
+    background-color: #AC405B;
+}
+.btn_a:hover {
+    background-color: #7C304B;
+}
+.tag {
+    padding: 5px 10px;
+    margin: 3px 5px;
+    vertical-align: bottom;
+    cursor: pointer;
+    text-align: center;
+    display: inline-table;
+    background-color: #6D0000;
+    color: powderblue;
+}
+.tag:hover {
+    background-color: #7C304B;
+    color: white;
+}
+.btn1 {
+    padding: 5px 10px;
+    margin: 3px 5px;
+    //vertical-align: bottom;
+    cursor: pointer;
+    text-align: center;
+    display: inline-table;
+    background-color: #6D0000;
+    color: lightblue;
+}
+.btn1:hover {
+    background-color: #966;
+    color: white;
+}
+
+.btn_b {
+    background-color: #BB4545;
+    /* height: 4em; */
+    display: table-cell;
+    vertical-align: middle;
+    /*border-width: 0px;*/
+}
+.btn_mc {
+    text-align: -webkit-center;
+    padding-top: 20px;
+}
+.btn_mc1 {
+    background-color: #613838;
+    display: block;
+    color:lightpink;
+}
+.btn_mc1:hover {
+    background-color: #9B4545;
+    /* color: bisque; */
+    color: antiquewhite;
+    cursor: pointer;
+}
+.btn_mc2 {
+    display: table-cell;
+    /*background-color: #BB0545;*/
+    height: 4em;
+    vertical-align: middle;
+}
+
+/* div.btn_mc2 { vertical-align:middle; display:table-cell; height:5em; } */
+
+.pay_btn {
+    background-color: #6F1818;
+}
+.pay_btn:hover {
+    background-color: #8F2818;
+}
+.numb {
+    width:100px;
+}
+.header {
+    text-align: center;
+}
+footer a { color: bisque; }
+a { color: palegreen; }
+
+a:hover,a:focus{color:#FFF;text-decoration:none}
+.odd {
+    background-color: #B97E7E
+}
+
+.navbar .nav>li>a {
+    padding: 20px 20px;
+}
+
+div.main_full{
+    padding: 20px 0px;
+    background: /* #E96E6E url(../images/bg/purple-angel-37230-1366x768.jpg) */ 0% 0% no-repeat fixed;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+/* <img src="/bets/static/images/bg/archer-and-witches-battling-the-monster-26555-1366x768.jpg" style="position: absolute; margin: 0px; padding: 0px; border: none; width: 1539px; height: 865px; max-height: none; max-width: none; z-index: -999; left: 0px; top: -101.px;">
+*/
+div.container .main {
+    /* background-color: rgba(233, 110, 110, 0.7); */
+    background-color: rgba(187, 91, 91, 0.7);
+}
+.container {
+  width: inherit;
+  max-width: 1000px;
+}
+
+.footer {
+    border-top: 0px;
+}
+
+/* #613838
+#E96E6E */
+.navbar{   margin-bottom: 0px; }
+body { line-height: normal; font-size: 20px;
+    background-color-: #613838;
+    background-color: #000;
+    color: papayawhip
+}
